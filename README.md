@@ -149,7 +149,7 @@ Groupe Dyotech (BUT2 Informatique 2024/2025) :
 ## Rapport & Ressources
 
 
-- [Version Drive S301](https://drive.google.com/drive/folders/1o0HUy2CeCfMBVKCZ8CLMnOgTMujFHPqs?usp=drive_link)
+- [Google Drive S301](https://drive.google.com/drive/folders/1o0HUy2CeCfMBVKCZ8CLMnOgTMujFHPqs?usp=drive_link)
 
 ---
 
