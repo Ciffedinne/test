@@ -10,13 +10,17 @@ Ce projet vise à moderniser la **gestion de la ludothèque de l’Université S
 ## 🧱 Structure du projet
 
 ```plaintext
-SAE4.01/
-├── app/              # Application web en MVC (PHP / HTML / CSS / JS)
-├── sql/              # Scripts SQL pour créer et peupler la base de données
-├── scripts/          # Scripts Python de nettoyage de données
-├── archive/          # Prototypes HTML / ressources initiales
-├── README.md         # Documentation projet
-```
+SAE-S4-main/
+├── Content/              # Contient CSS et images
+│   ├── CSS/
+│   └── img/
+├── Controllers/          # Logique PHP et PHPMailer
+│   └── PHPMailer-master/
+├── Models/               # Modèles de données
+├── Views/                # Vues HTML / PHP
+├── database_jeux.sql     # Script SQL de création de la BDD
+├── README.md             # Documentation
+
 
 ---
 
@@ -74,11 +78,12 @@ PRET, EMPRUNTEUR, PERSONNE, ROLE, PERSONNEROLE
 
 #### 1. Cloner le projet
 ```bash
-git clone https://github.com/votre_projet/SAE4.01.git
+git clone git clone https://github.com/votre_projet/SAE-S4-main.git
+
 ```
 
 #### 2. Placer les fichiers
-Copier le dossier `app/` dans le répertoire suivant :
+Copier le dossier `SAE-S4-main/` dans le répertoire suivant :
 ```
 C:/wamp64/www/app/
 ```
@@ -120,7 +125,7 @@ $password = ''; // vide par défaut sous WAMP
 #### 5. Lancer le serveur
 Accéder au site :
 ```
-http://localhost/app/
+http://localhost/SAE-S4/
 ```
 
 ## 👨‍💻 Équipe
