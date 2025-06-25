@@ -1,13 +1,16 @@
 
 # SAE 4.01 – Développement d'une application complexe
 
-## 🎯 Objectif du projet
+## Contexte du projet
 
-Ce projet vise à moderniser la **gestion de la ludothèque de l’Université Sorbonne Paris Nord**, qui regroupe plus de **17 000 jeux de société**, certains datant du XIXe siècle. L’objectif est de remplacer l'ancien système de gestion sous Excel par une **application web robuste et évolutive**, accompagnée d’une **base de données relationnelle** et de **scripts de traitement automatisés**.
+L’Université Sorbonne Paris Nord possède une collection unique de **17 000 jeux de société**, dont certains datent du XIXe siècle. Initialement gérée via un simple fichier Excel, cette base de données était difficilement exploitable.  
+
+En **semestre 3**, un prototype d’application a été développé pour structurer les données et améliorer la gestion.  
+En **semestre 4**, notre travail a consisté à **améliorer**, **corriger** et **finaliser** ce prototype pour produire une **application web fonctionnelle**, robuste, et extensible.
 
 ---
 
-## 🧱 Structure du projet
+## Structure du projet
 
 ```plaintext
 SAE-S4-main/
@@ -24,28 +27,34 @@ SAE-S4-main/
 
 ---
 
-## ⚙️ Fonctionnalités principales
+## Fonctionnalités principales
 
-- 🔍 **Recherche avancée** dans la ludothèque
-- 📦 **Gestion des jeux et des exemplaires physiques**
-- 📊 **Suivi des prêts et des emprunteurs**
-- 👤 **Gestion des utilisateurs et rôles (lecteur, gestionnaire, admin)**
-- 🧹 **Scripts Python** de nettoyage et préparation des données
-- 🖼️ **Intégration prévue d’illustrations de jeux**
+- **Recherche de jeux** avec filtres
+- **Consultation détaillée** des jeux et de leurs exemplaires
+- **Gestion des prêts** et du retour des jeux
+- **Gestion des utilisateurs** avec rôles (Lecteur, Gestionnaire, Admin)
+- **Connexion sécurisée à la base de données**
+- **Support email** via PHPMailer
+- Intégration d’**images** pour chaque jeu (prévu)
 
+> **Améliorations par rapport à la SAE 3.01** :
+> - Ajout de la **gestion des rôles** via `Personne`, `Rôle` et `Personne_Rôle`
+> - Architecture MVC plus claire (Controllers, Models, Views)
+> - Mise à niveau de la base vers la **BCNF**
+> - Intégration de **PHPMailer** pour des notifications
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Backend** : PHP
 - **Base de données** : MySQL
 - **Frontend** : HTML, CSS, JavaScript
 - **Scripts** : Python (pandas)
-- **Modélisation** : Modèle Entité-Association amélioré, respect des 3FN & BCNF
+- **Librairie email** : PHPMailer
 
 ---
 
-## 🧠 Modélisation de la base de données
+## Modélisation de la base de données
 
 Le modèle relationnel permet :
 - La gestion des **jeux de société** (multi-auteurs, éditeurs, catégories, mécanismes)
@@ -60,11 +69,11 @@ AUTEUR, EDITEUR, CATEGORIE, MECANISME, ...
 PRET, EMPRUNTEUR, PERSONNE, ROLE, PERSONNEROLE
 ```
 
-> 📌 Le schéma respecte les formes normales jusqu’à la **BCNF**.
+> Le schéma respecte les formes normales jusqu’à la **BCNF**.
 
 ---
 
-## 🚀 Installation locale avec WAMP
+## Installation locale avec WAMP
 
 ### Prérequis :
 - [WAMP Server](https://www.wampserver.com/)
@@ -97,7 +106,7 @@ C:/wamp64/www/app/
    - `sql/creation_tables.sql`
    - `sql/script_insertion.sql`
 
-##### ⚠️ Si vous utilisez `LOAD DATA INFILE` :
+##### Si vous utilisez `LOAD DATA INFILE` :
 - Déplacer `inventaire.csv` dans :
   ```
   C:/wamp64/tmp/inventaire.csv
@@ -128,7 +137,7 @@ Accéder au site :
 http://localhost/SAE-S4/
 ```
 
-## 👨‍💻 Équipe
+## Équipe
 
 Groupe Dyotech (BUT2 Informatique 2024/2025) :
 - **ABDOUL Sajith**
@@ -138,19 +147,19 @@ Groupe Dyotech (BUT2 Informatique 2024/2025) :
 
 ---
 
-## 📄 Rapport & Ressources
+## Rapport & Ressources
 
 
 - [Version Drive s301(si lien expiré)](https://drive.google.com/drive/folders/1o0HUy2CeCfMBVKCZ8CLMnOgTMujFHPqs?usp=drive_link)
 
 ---
 
-## ✅ À venir / évolutions possibles
+## À venir / évolutions possibles
 
-- 🔍 Recherche filtrée multi-critères
-- 🗑️ Suppression de jeux
-- 🖼️ Ajout d’images pour chaque jeu
-- 📑 Suivi des logs et connexions
+- Recherche filtrée multi-critères
+- Suppression de jeux
+- Ajout d’images pour chaque jeu
+- Suivi des logs et connexions
 
 ---
 
