@@ -42,16 +42,9 @@ SAE-S4-main/
 > - Architecture MVC plus claire (Controllers, Models, Views)
 > - Mise à niveau de la base vers la **BCNF**
 > - Intégration de **PHPMailer** pour des notifications
----
-
-## Technologies utilisées
-
-- **Backend** : PHP
-- **Base de données** : MySQL
-- **Frontend** : HTML, CSS, JavaScript
-- **Scripts** : Python (pandas)
-- **Librairie email** : PHPMailer
-
+> - Recherche filtrée multi-critères
+> - Modifications/Suppression de jeux
+> - Suivi des logs
 ---
 
 ## Modélisation de la base de données
@@ -136,6 +129,12 @@ Accéder au site :
 ```
 http://localhost/SAE-S4/
 ```
+#### 6. Exécuter les scripts Python
+```bash
+cd scripts/nettoyage
+pip install pandas
+python main.py
+```
 
 ## Équipe
 
@@ -154,15 +153,13 @@ Groupe Dyotech (BUT2 Informatique 2024/2025) :
 
 ---
 
-## À venir / évolutions possibles
+## Technologies utilisées
 
-- Recherche filtrée multi-critères
-- Suppression de jeux
-- Ajout d’images pour chaque jeu
-- Suivi des logs et connexions
+- **Backend** : PHP
+- **Base de données** : MySQL
+- **Frontend** : HTML, CSS, JavaScript
+- **Scripts** : Python (pandas)
+- **Librairie email** : PHPMailer
 
 ---
 
-## 📢 Remarque
-
-Ce projet a été développé dans le cadre de la SAE 4.01 de BUT2 Informatique. Il vise à illustrer la conception, le développement et la mise en production d’une application complète à partir d’un existant.
