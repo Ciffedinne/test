@@ -20,7 +20,7 @@ SAE-S4-main/
 ├── Views/                # Vues HTML / PHP
 ├── database_jeux.sql     # Script SQL de création de la BDD
 ├── README.md             # Documentation
-
+```
 
 ---
 
