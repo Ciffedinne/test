@@ -6,7 +6,7 @@
 L’Université Sorbonne Paris Nord possède une collection unique de **17 000 jeux de société**, dont certains datent du XIXe siècle. Initialement gérée via un simple fichier Excel, cette base de données était difficilement exploitable.  
 
 En **semestre 3**, un prototype d’application a été développé pour structurer les données et améliorer la gestion.  
-En **semestre 4**, notre travail a consisté à **améliorer**, **corriger** et **finaliser** ce prototype pour produire une **application web fonctionnelle**, robuste, et extensible.
+En **semestre 4**, notre travail a consisté à **améliorer**, **corriger** et **finaliser** ce prototype pour produire une **site web fonctionnelle**, robuste, et extensible.
 
 ---
 
