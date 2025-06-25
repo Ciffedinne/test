@@ -3,7 +3,7 @@
 
 ## Contexte du projet
 
-L’Université Sorbonne Paris Nord possède une collection unique de **17 000 jeux de société**, dont certains datent du XIXe siècle. Initialement gérée via un simple fichier Excel, cette base de données était difficilement exploitable.  
+L’Université Sorbonne Paris Nord possède une collection unique de plus de **17 000 jeux de société**, dont certains datent du XIXe siècle. Initialement gérée via un simple fichier Excel, cette base de données était difficilement exploitable.  
 
 En **semestre 3**, un prototype de site web a été développé pour structurer les données et améliorer la gestion.  
 En **semestre 4**, notre travail a consisté à **améliorer**, **corriger** et **finaliser** ce prototype pour produire un **site web fonctionnelle**, robuste, et extensible.
@@ -149,7 +149,7 @@ Groupe Dyotech (BUT2 Informatique 2024/2025) :
 ## Rapport & Ressources
 
 
-- [Version Drive s301(si lien expiré)](https://drive.google.com/drive/folders/1o0HUy2CeCfMBVKCZ8CLMnOgTMujFHPqs?usp=drive_link)
+- [Version Drive S301](https://drive.google.com/drive/folders/1o0HUy2CeCfMBVKCZ8CLMnOgTMujFHPqs?usp=drive_link)
 
 ---
 
