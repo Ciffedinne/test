@@ -17,7 +17,7 @@ SAE-S4-main/
 ├── Content/              # Contient CSS et images
 │   ├── CSS/
 │   └── img/
-├── Controllers/          # Logique PHP et PHPMailer
+├── Controllers/          # PHP et PHPMailer
 │   └── PHPMailer-master/
 ├── Models/               # Modèles de données
 ├── Views/                # Vues HTML / PHP
